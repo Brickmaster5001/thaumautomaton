@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://50fss68fs1xq"]
+
+[ext_resource type="Script" path="res://scenes/chain_link.gd" id="1_8smwy"]
+[ext_resource type="PackedScene" uid="uid://b3or1wb2pvaqr" path="res://scenes/chain.tscn" id="1_xbq8w"]
+
+[node name="chain_link" type="Node2D"]
+script = ExtResource("1_8smwy")
+
+[node name="chain" parent="." instance=ExtResource("1_xbq8w")]
+position = Vector2(-2, 0)
+
+[node name="pin_joint" type="PinJoint2D" parent="."]
+position = Vector2(-4, 0)
+node_a = NodePath("../chain")
+bias = 0.9
