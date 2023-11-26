@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://4swanhh2nnvs"]
+
+[ext_resource type="TileSet" uid="uid://combcqv0jrbid" path="res://scenes/stone_brick_tileset.tres" id="1_h3lf7"]
+
+[node name="stone_brick_tileset" type="TileMap"]
+tile_set = ExtResource("1_h3lf7")
+format = 2
