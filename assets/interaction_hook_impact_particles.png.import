@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buuwm70ohodts"
-path="res://.godot/imported/chain_link.png-e7f25ec13078c5f2e1584a33caeaf69e.ctex"
+uid="uid://drdcwq6ionity"
+path="res://.godot/imported/interaction_hook_impact_particles.png-4d94d86ba5e305be4ce7c1c34a2872e5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/chain_link.png"
-dest_files=["res://.godot/imported/chain_link.png-e7f25ec13078c5f2e1584a33caeaf69e.ctex"]
+source_file="res://assets/interaction_hook_impact_particles.png"
+dest_files=["res://.godot/imported/interaction_hook_impact_particles.png-4d94d86ba5e305be4ce7c1c34a2872e5.ctex"]
 
 [params]
 
@@ -31,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

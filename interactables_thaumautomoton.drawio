@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net" modified="2023-11-27T15:35:03.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="KT6-amRPb3xvrRREijSJ" version="22.1.4" type="device">
+  <diagram name="Page-1" id="1UsxtKT2FB5aRDTelyCh">
+    <mxGraphModel dx="1912" dy="2113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rXxpzwQUS8wAinzfVAax-24" value="Impulse Hazards" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="200" height="280" as="geometry">
+            <mxRectangle x="280" y="120" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-37" value="Hazards which can be &#39;activated&#39; when they receive a signal. Stays active for a set duration then becomes de-active again. Applying a signal while an impulse hazard is active has no effect.&amp;nbsp;&lt;br&gt;&lt;br&gt;E.g.&lt;br&gt;&lt;ul&gt;&lt;li&gt;Saw blade that moves along a track&lt;/li&gt;&lt;li&gt;Metal Casting Pump that pours for a set duration&lt;/li&gt;&lt;li&gt;Mechanical Press&lt;/li&gt;&lt;li&gt;Robotic Arm&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="rXxpzwQUS8wAinzfVAax-24">
+          <mxGeometry x="10" y="30" width="180" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXxpzwQUS8wAinzfVAax-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="90" />
+              <mxPoint x="180" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXxpzwQUS8wAinzfVAax-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXxpzwQUS8wAinzfVAax-5" target="rXxpzwQUS8wAinzfVAax-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="90" />
+              <mxPoint x="620" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-5" value="Hazards" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-9" value="Button" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-10" value="Switch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-11" value="Sensor&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXxpzwQUS8wAinzfVAax-15" target="rXxpzwQUS8wAinzfVAax-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="70" />
+              <mxPoint x="900" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXxpzwQUS8wAinzfVAax-15" target="rXxpzwQUS8wAinzfVAax-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="70" />
+              <mxPoint x="1300" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXxpzwQUS8wAinzfVAax-15" target="rXxpzwQUS8wAinzfVAax-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-15" value="Input" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1040" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-16" value="Timer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-17" value="Signal Extender" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-18" value="One Way" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXxpzwQUS8wAinzfVAax-22" target="rXxpzwQUS8wAinzfVAax-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="-190" />
+              <mxPoint x="400" y="-190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXxpzwQUS8wAinzfVAax-22" target="rXxpzwQUS8wAinzfVAax-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="-190" />
+              <mxPoint x="800" y="-190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXxpzwQUS8wAinzfVAax-22" target="rXxpzwQUS8wAinzfVAax-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-22" value="Logic" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="-300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-28" value="Static" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-35" value="Hazards which do not require any input to become hazardous/more hazardous.&lt;br&gt;&lt;br&gt;E.g.&lt;br&gt;&lt;ul&gt;&lt;li&gt;Spikes&lt;/li&gt;&lt;li&gt;Pool of Molten Metal&lt;/li&gt;&lt;li&gt;Walls (When going fast)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="rXxpzwQUS8wAinzfVAax-28">
+          <mxGeometry x="10" y="30" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-29" value="Toggle Hazards" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="200" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-36" value="Hazards which turn on for as long as they are receiving a signal. Can be activated for short or long periods of time.&lt;br&gt;&lt;br&gt;E.g.&lt;br&gt;&lt;ul&gt;&lt;li&gt;Flame jet&lt;/li&gt;&lt;li&gt;Electrified grid&lt;/li&gt;&lt;li&gt;Steam Jet&lt;/li&gt;&lt;li&gt;Water Faucet&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="rXxpzwQUS8wAinzfVAax-29">
+          <mxGeometry x="10" y="30" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-49" value="Wire" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-50" value="Emits a 1 second signal pulse when interacted with," style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="170" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-52" value="Toggles states when interacted with. While ON it emits a constant signal" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="170" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rXxpzwQUS8wAinzfVAax-53" value="Scans a definable, player-visible field. Once an entity passes through the field it emits a signal for a defined length then enters a defined cooldown period." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="170" width="120" height="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

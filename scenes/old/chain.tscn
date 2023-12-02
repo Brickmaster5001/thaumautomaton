@@ -2,17 +2,21 @@
 
 [ext_resource type="Texture2D" uid="uid://buuwm70ohodts" path="res://assets/chain_link.png" id="1_pk354"]
 
-[sub_resource type="SegmentShape2D" id="SegmentShape2D_cnree"]
-a = Vector2(-7.23998e-06, -2)
-b = Vector2(0, 2)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_nv2p6"]
+radius = 1.0
+height = 4.0
 
 [node name="chain" type="RigidBody2D"]
 collision_layer = 8
 collision_mask = 8
+mass = 9.55
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_pk354")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 rotation = 1.5708
-shape = SubResource("SegmentShape2D_cnree")
+shape = SubResource("CapsuleShape2D_nv2p6")
+
+[node name="locator" type="Node2D" parent="."]
+position = Vector2(-2, 0)

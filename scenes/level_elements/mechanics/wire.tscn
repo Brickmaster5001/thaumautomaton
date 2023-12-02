@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bftvy7i8xkhjv"]
+
+[ext_resource type="Script" path="res://scenes/level_elements/mechanics/wire.gd" id="1_5t4u4"]
+
+[node name="Wire" type="Node2D" groups=["vischanic", "wire_vischanic"]]
+z_index = 1
+script = ExtResource("1_5t4u4")
+
+[node name="Line2D" type="Line2D" parent="."]
+position = Vector2(5, 0)
+points = PackedVector2Array(0, 0, -10, 0)
+width = 2.0
+default_color = Color(0.188235, 0, 0, 1)

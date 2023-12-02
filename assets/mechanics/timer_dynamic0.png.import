@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buuwm70ohodts"
-path="res://.godot/imported/chain_link.png-e7f25ec13078c5f2e1584a33caeaf69e.ctex"
+uid="uid://ctkw6y5seyknw"
+path="res://.godot/imported/timer_dynamic0.png-cd777ee42740a2f7e1cf70b1344bbd52.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/chain_link.png"
-dest_files=["res://.godot/imported/chain_link.png-e7f25ec13078c5f2e1584a33caeaf69e.ctex"]
+source_file="res://assets/mechanics/timer_dynamic0.png"
+dest_files=["res://.godot/imported/timer_dynamic0.png-cd777ee42740a2f7e1cf70b1344bbd52.ctex"]
 
 [params]
 

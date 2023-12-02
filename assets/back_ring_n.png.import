@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buuwm70ohodts"
-path="res://.godot/imported/chain_link.png-e7f25ec13078c5f2e1584a33caeaf69e.ctex"
+uid="uid://b2ol021vhtpwd"
+path="res://.godot/imported/back_ring_n.png-6dc7d7cd9666284286d2fd81f721de7a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/chain_link.png"
-dest_files=["res://.godot/imported/chain_link.png-e7f25ec13078c5f2e1584a33caeaf69e.ctex"]
+source_file="res://assets/back_ring_n.png"
+dest_files=["res://.godot/imported/back_ring_n.png-6dc7d7cd9666284286d2fd81f721de7a.ctex"]
 
 [params]
 
@@ -31,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

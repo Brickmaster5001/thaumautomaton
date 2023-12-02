@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvam0o6gowefs"]
+
+[ext_resource type="Script" path="res://editor/editor_container.gd" id="1_g8c80"]
+
+[node name="EditorContainer" type="Node"]
+script = ExtResource("1_g8c80")

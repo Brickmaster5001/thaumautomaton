@@ -1,0 +1,48 @@
+[gd_scene load_steps=6 format=3 uid="uid://drrijwhnt8ybh"]
+
+[ext_resource type="Texture2D" uid="uid://b33c8j7bw1pvh" path="res://assets/mechanics/flamethrower_background0.png" id="1_nxnav"]
+[ext_resource type="Script" path="res://scenes/level_elements/mechanics/flamethrower.gd" id="1_pqn2f"]
+[ext_resource type="Texture2D" uid="uid://c7hyk408suou8" path="res://assets/mechanics/flamethrower_dynamic0.png" id="2_62o8x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w7hqq"]
+size = Vector2(23, 7)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aw6bx"]
+resource_local_to_scene = true
+size = Vector2(10, 0)
+
+[node name="Flamethrower" type="StaticBody2D" groups=["hazard_mechanic", "mechanic"]]
+position = Vector2(0, 3)
+disable_mode = 1
+collision_mask = 0
+script = ExtResource("1_pqn2f")
+
+[node name="Background0" type="Sprite2D" parent="."]
+position = Vector2(-14, -24)
+texture = ExtResource("1_nxnav")
+centered = false
+
+[node name="Dynamic0" type="Sprite2D" parent="."]
+z_index = 2
+position = Vector2(-4, -20)
+texture = ExtResource("2_62o8x")
+centered = false
+offset = Vector2(-7, -7)
+
+[node name="BaseCollision0" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 8.5)
+shape = SubResource("RectangleShape2D_w7hqq")
+
+[node name="HazardArea0" type="Area2D" parent="."]
+position = Vector2(0, 14)
+collision_layer = 128
+collision_mask = 0
+
+[node name="HazardCollision0" type="CollisionShape2D" parent="HazardArea0"]
+shape = SubResource("RectangleShape2D_aw6bx")
+debug_color = Color(0, 0.6, 0.701961, 0.419608)
+
+[node name="Line2D" type="Line2D" parent="."]
+position = Vector2(0, 14)
+points = PackedVector2Array(0, 0, 0, 0)
+default_color = Color(0.960784, 0.0470588, 0, 0.45098)

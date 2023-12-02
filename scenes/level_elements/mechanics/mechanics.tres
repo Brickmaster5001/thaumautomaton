@@ -1,0 +1,22 @@
+[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://elrqca4m5hfx"]
+
+[ext_resource type="PackedScene" uid="uid://dbtfpuya5aq1d" path="res://scenes/level_elements/mechanics/switch.tscn" id="1_bnn5e"]
+[ext_resource type="PackedScene" uid="uid://cm3c14p7vlo8p" path="res://scenes/level_elements/mechanics/timer.tscn" id="2_kicnk"]
+[ext_resource type="PackedScene" uid="uid://drrijwhnt8ybh" path="res://scenes/level_elements/mechanics/flamethrower.tscn" id="3_ltixw"]
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_lsrwf"]
+resource_name = "switch"
+scenes/1/scene = ExtResource("1_bnn5e")
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_67llc"]
+resource_name = "timer"
+scenes/2/scene = ExtResource("2_kicnk")
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_n0785"]
+resource_name = "flamethrower"
+scenes/2/scene = ExtResource("3_ltixw")
+
+[resource]
+sources/0 = SubResource("TileSetScenesCollectionSource_lsrwf")
+sources/1 = SubResource("TileSetScenesCollectionSource_67llc")
+sources/2 = SubResource("TileSetScenesCollectionSource_n0785")

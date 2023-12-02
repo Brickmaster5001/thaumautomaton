@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buuwm70ohodts"
-path="res://.godot/imported/chain_link.png-e7f25ec13078c5f2e1584a33caeaf69e.ctex"
+uid="uid://bb840p140fssb"
+path="res://.godot/imported/switch_dynamic0.png-53c1a57ba8b30f09406df8044fb75de8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/chain_link.png"
-dest_files=["res://.godot/imported/chain_link.png-e7f25ec13078c5f2e1584a33caeaf69e.ctex"]
+source_file="res://assets/mechanics/switch_dynamic0.png"
+dest_files=["res://.godot/imported/switch_dynamic0.png-53c1a57ba8b30f09406df8044fb75de8.ctex"]
 
 [params]
 

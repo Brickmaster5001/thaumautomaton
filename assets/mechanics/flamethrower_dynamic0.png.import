@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buuwm70ohodts"
-path="res://.godot/imported/chain_link.png-e7f25ec13078c5f2e1584a33caeaf69e.ctex"
+uid="uid://c7hyk408suou8"
+path="res://.godot/imported/flamethrower_dynamic0.png-3a483d22ab2e17dc598b79ff57fc5c5d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/chain_link.png"
-dest_files=["res://.godot/imported/chain_link.png-e7f25ec13078c5f2e1584a33caeaf69e.ctex"]
+source_file="res://assets/mechanics/flamethrower_dynamic0.png"
+dest_files=["res://.godot/imported/flamethrower_dynamic0.png-3a483d22ab2e17dc598b79ff57fc5c5d.ctex"]
 
 [params]
 
